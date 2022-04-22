@@ -1,0 +1,52 @@
+.container {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.province {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.province h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    color: #F5A52D;
+}
+
+.province p {
+    text-align: center;
+    margin: 0;
+    color: #b77819;
+    font-size: 1.2rem;
+
+    margin-bottom: 1rem;
+}
+
+
+th, td {
+    border: 1px solid #b77819;
+    padding: 9px;
+}
+
+.province__table thead{
+    color: #b77819;
+    text-align: center;
+    font-size: 13px;
+}
+
+.province__table tbody{
+    color: #b77819;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    th, td {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
