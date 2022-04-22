@@ -1,0 +1,45 @@
+.container {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.global {
+    padding: 1rem;
+}
+
+.global__brand {
+    text-align: center;
+    font-size: 2rem;
+    color: #F5A52D;
+    margin: 0;
+}
+
+.global__info {
+    margin: 0;
+    color:#b77819 ;
+    text-align: center;
+}
+
+.global__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.global__control {
+    margin: 1rem;
+    color: white;
+    padding: 1rem;
+    width: 250px;
+    border-radius: 10px;
+    height: auto;
+    background-color: #F5A52D;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .global__div {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
